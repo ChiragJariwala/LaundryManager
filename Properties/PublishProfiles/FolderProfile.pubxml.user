@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Development 2022\API\LaundryManagerAPI\LaundryManagerAPI\bin\Release\net5.0\publish\</_PublishTargetUrl>
+    <History>True|2022-03-05T15:05:42.0320122Z;True|2022-03-05T20:29:08.7381338+05:30;True|2022-03-05T20:25:01.0841980+05:30;True|2022-03-05T18:53:28.8047960+05:30;True|2022-03-05T18:35:44.8490619+05:30;True|2022-02-14T16:29:36.9253962+05:30;True|2022-02-05T16:46:37.2834618+05:30;True|2022-02-05T16:43:14.2500344+05:30;True|2022-02-05T16:29:08.5134365+05:30;True|2022-02-05T16:08:38.6279700+05:30;True|2022-02-05T15:57:06.1510734+05:30;False|2022-02-05T15:56:53.3802319+05:30;True|2022-02-05T15:38:59.5486204+05:30;True|2022-02-05T15:10:53.1598584+05:30;True|2022-02-05T12:43:58.4389842+05:30;True|2022-02-04T18:35:05.7949243+05:30;True|2022-02-04T18:25:26.1498214+05:30;True|2022-02-04T18:21:55.5389672+05:30;True|2022-02-04T12:28:26.8206198+05:30;True|2022-02-03T16:56:24.0217718+05:30;True|2022-02-01T20:27:30.9077214+05:30;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="Default">
+      <Value>Server=.%3bDatabase=NewTemp%3bTrusted_Connection=True%3b</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=.%3bDatabase=NewTemp%3bTrusted_Connection=True%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="LaundryManagerAPI.Data.ApplicationDBContext">
+      <Value>Server=.%3bDatabase=NewTemp%3bTrusted_Connection=True%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
